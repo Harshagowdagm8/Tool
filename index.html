@@ -138,44 +138,24 @@
             margin: 0 auto 30px;
         }
         
-        .search-container {
-            max-width: 600px;
-            margin: 0 auto;
-            position: relative;
-        }
-        
-        .search-container input {
-            width: 100%;
-            padding: 15px 20px;
-            border-radius: 50px;
-            border: 2px solid #ddd;
-            font-size: 1.1rem;
+        .ad-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 25px auto;
+            text-align: center;
             box-shadow: var(--shadow);
-            transition: var(--transition);
+            max-width: 970px;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-style: italic;
         }
         
-        .search-container input:focus {
-            outline: none;
-            border-color: var(--accent);
-            box-shadow: 0 0 0 4px rgba(67, 97, 238, 0.2);
-        }
-        
-        .search-container button {
-            position: absolute;
-            right: 10px;
-            top: 10px;
-            background: linear-gradient(to right, var(--primary), var(--secondary));
-            color: white;
-            border: none;
-            padding: 8px 25px;
-            border-radius: 50px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-        
-        .search-container button:hover {
-            transform: scale(1.05);
+        .ad-container.top {
+            margin-top: 0;
         }
         
         /* Tools Section */
